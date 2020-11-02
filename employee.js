@@ -7,7 +7,7 @@ let payGrades = {
 };
 
 function getCadre() {
-  if (salary >= payGrades.entryLevel.minSalary && salary <= payGrades.entryLevel.maxSalary) {
+  if (salary >= payGrades.entryLevel.minSalary && salary <= payGrades.entryLevel.maxSalary) {
     return 'entryLevel';
   } else if (salary >= payGrades.midLevel.minSalary && salary <= payGrades.midLevel.maxSalary) {
     return 'midLevel';
